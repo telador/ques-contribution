@@ -1,0 +1,258 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    background-color:#4A4737; 
+    color: #B0AB99; 
+    font-family: 'Arial', sans-serif; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+ 
+* {
+    margin:0;
+    padding:0;
+}
+  .headlogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .namelogo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .headbotton a {
+    text-decoration: none;
+    color:#B0AB99; 
+    margin-right: 20px;
+    transition: color 0.3s ease; 
+  }
+  
+  .headbotton a:hover {
+    color: #7B7421; 
+  }
+
+
+  .textblock {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #08957E ; 
+    margin-bottom: 10px; 
+    text-align: center; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  .photoblock {
+    margin-top: 30px;
+    max-width: 80%; 
+    padding: 10px;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .artikletitleblock {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #00BBB2; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-weight: bold; 
+}
+
+
+#content {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contentdetails {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.contentdetails li {
+    margin-bottom: 10px;
+}
+
+.contentdetails li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.contentdetails li a:hover {
+    text-decoration: underline;
+    color: #00BBB2;
+}
+
+
+.titleblock  {
+    text-align: center;
+    padding: 200px 0 50px; 
+    color: #00BBB2;
+  }
+  
+  #title {
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    margin: 0; 
+  }
+
+#topbot {
+  position: fixed;
+  bottom: 5%;
+  left: 3%;
+  font-size: 30px;
+  border-width: 2px;
+}
+
+
+  #titlecontact {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .list {
+   
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .list li {
+    margin-left:  48%;
+    margin-bottom: 10px;
+  }
+  
+  .list li a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .list li a:hover {
+    text-decoration: underline;
+  }
+
+
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.formname {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formname label {
+    font-weight: bold;
+    color: #7B7421;
+}
+
+.formname textarea,
+.formname select {
+    width: 310px;
+    height: 40px;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; 
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #00BBB2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #009c93;
+}
+
+
+
+.comments-section {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+  .comment-container {
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  .comment {
+    padding: 5px;
+    margin: 5px 0;
+    color: #fff;
+  }
+  
+  #pagination {
+    text-align: center;
+  }
+  
+  .current-page {
+    font-weight: bold;
+    padding: 2px 6px; 
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .page-link {
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .page-link:hover {
+    background-color: #f2f2f2;
+  }

@@ -1,0 +1,10 @@
+Name: Nocte | Extension: Calendar!
+Comment: Is there any plans to add or implement weather into the calendar?
+Name: Dikappa | Extension: Clash!
+Comment: Woooo so cool the new update! I can't wait to test it out!
+Name: Dikappa | Extension: Smoke & Spectre!
+Comment: hello! a little QoL request.. Can you make smoke remember the vision range even if it have "Unlimited vision range" active? I noted that if you set a vision to infinite and than refresh the tab Smoke! set the default range to 30 ft even if you have setted it to another number.
+Name: atlas | Extension: Rumble!
+Comment: Sweet sweet thanks for that. Currently new to looking at Owlbear 2.0 so seeing all the extensions and integrations is both awesome but equally confusing as all hell
+Name: Andrew (formerly SeveralRecord) | Extension: Scry!
+Comment: one tiny request for Scry! - could you make the popover semi-transparent (maybe a toggle?) so that you can see more of the scene (ie. through it) when on mobile, please? 
